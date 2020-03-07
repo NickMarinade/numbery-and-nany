@@ -11,7 +11,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src='./data/entries.js'></script>
-    <script src='./data/saveHandler.js'></script>
+    <script src='./reset/resetHandler.js'></script>
+    <script src='./save/saveHandler.js'></script>
 </head>
 <body>
     <div class = "container">
@@ -29,13 +30,14 @@
             </div>
             <div class="container-fluid d-flex flex-column" id="list">
                 <ul class="list-group list-group-flush" id="numbers">Numbers:</ul>
-                <ul class="list-group list-group-flush" id="nanys">Nanys</ul>
+                <ul class="list-group list-group-flush" id="nanys">Nanys:</ul>
             </div>
             <span>
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="reset">Reset</button>
             </span>
         </div>
     </div>
-    <script src='./data/listenerSave.js'></script>
+    <script src='./save/listenerSave.js'></script>
+    <script src='./reset/listenerReset.js'></script>
 </body>
 </html>
